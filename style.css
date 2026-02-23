@@ -1,0 +1,189 @@
+body {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  max-width:1200px;
+  margin: 0 auto;
+  padding:2rem;
+}
+
+.nav a { 
+    color: #c295f9;
+    text-decoration: none;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:3rem;
+  border-bottom: 2px solid #6a0dad;
+}
+
+.logo{
+  font-size:1.5rem;
+  font-weight:bold;
+  color:#c295f9;
+}
+
+.pic {
+    margin-top: 20px;
+    width: 180px;
+    height: 180px;
+    border: 3px solid #6a0dad;
+    border-radius: 100px;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid#6a0dad;
+}
+
+h2 {
+  margin: 2rem 0 1.5rem;
+  border-bottom: 2px solid #6a0dad;
+  display: inline-block;
+  padding-bottom: 5px;
+  color: white;
+}
+
+p {
+    color:  #e2cffa;
+    opacity: 0.9;
+}
+
+.about {
+  background: #0a0011;
+  padding: 1rem;
+  border-radius: 20px;;
+  border-bottom: 2px solid #6a0dad;
+  border-left: 2px solid #6a0dad;
+  border-right: 2px solid #6a0dad;
+  box-shadow: 0px 1px 3px white;
+}
+  
+.skills {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.box {
+    width: 250px;
+    height: auto;
+    background-color: rgba(183, 126, 255, 0.2);
+    border-radius: 20px;
+    border: 2px solid #6a0dad;
+    box-shadow: 0px 2px 3px white;
+}
+
+.box h3 {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    color: #e2cffa;
+    border-bottom: 1px solid  #6a0dad ;
+}
+
+.box p {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+
+
+/*Project cards*/
+.project{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    background-color: rgba(183, 126, 255, 0.2);
+    border-radius: 20px;
+    border: 2px solid #6a0dad;
+    box-shadow: 0px 2px 4px white;
+}
+
+.card img {
+    width: 100%;       
+    max-width: 200px;   
+    height: auto;       
+    display: block;     
+    margin: 0 auto;     
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    border-bottom: 2px solid #6a0dad;
+}
+
+.card h4 {
+    text-align: center;
+    color:  #e2cffa;
+    border-bottom: 2px solid #6a0dad;
+
+}
+
+.card h6 {
+    margin-left: 5px;
+    margin-right: 5px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    white-space: normal;
+    font-size: small;
+    color: #e2cffa;
+}
+
+.card h5 {
+    color: red;
+    text-align: center;
+    font-size: xx-small;
+}
+
+.contact {
+    margin-top: 4rem;
+    background: #1f0033;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px white;
+    text-align: center;
+}
+
+.contactlence {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contactlence a {
+    background-color: rgba(183, 126, 255, 0.2);
+    padding: 0.6rem 1.2rem;
+    border-radius: 20px;
+    color: #d9c2ff;
+    border: 1px solid #7b41b3;
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  color: #7e62a3;
+}
