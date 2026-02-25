@@ -1,189 +1,176 @@
+
 body {
-    background-color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #0f172a; 
+    color: #e2e8f0;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
 }
 
-.container{
-  max-width:1200px;
-  margin: 0 auto;
-  padding:2rem;
+h1, h2, h5 {
+    font-weight: 700;
 }
 
-.nav a { 
-    color: #c295f9;
-    text-decoration: none;
-}
-
-.header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-bottom:3rem;
-  border-bottom: 2px solid #6a0dad;
-}
-
-.logo{
-  font-size:1.5rem;
-  font-weight:bold;
-  color:#c295f9;
-}
-
-.pic {
-    margin-top: 20px;
-    width: 180px;
-    height: 180px;
-    border: 3px solid #6a0dad;
-    border-radius: 100px;
-    display: block;
-    object-fit: cover;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-h1 {
-    text-align: center;
-    color: white;
-    border-bottom: 2px solid#6a0dad;
-}
-
-h2 {
-  margin: 2rem 0 1.5rem;
-  border-bottom: 2px solid #6a0dad;
-  display: inline-block;
-  padding-bottom: 5px;
-  color: white;
-}
-
-p {
-    color:  #e2cffa;
-    opacity: 0.9;
-}
-
-.about {
-  background: #0a0011;
-  padding: 1rem;
-  border-radius: 20px;;
-  border-bottom: 2px solid #6a0dad;
-  border-left: 2px solid #6a0dad;
-  border-right: 2px solid #6a0dad;
-  box-shadow: 0px 1px 3px white;
-}
-  
-.skills {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin: 10px;
-}
-
-.box {
-    width: 250px;
-    height: auto;
-    background-color: rgba(183, 126, 255, 0.2);
-    border-radius: 20px;
-    border: 2px solid #6a0dad;
-    box-shadow: 0px 2px 3px white;
-}
-
-.box h3 {
-    text-align: center;
-    margin: 10px;
-    padding: 5px;
-    color: #e2cffa;
-    border-bottom: 1px solid  #6a0dad ;
-}
-
-.box p {
-    text-align: center;
-    margin: 10px;
-    padding: 5px;
-    color: white;
-}
-
-
-/*Project cards*/
-.project{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.card {
-    width: 250px;
-    height: auto;
-    background-color: rgba(183, 126, 255, 0.2);
-    border-radius: 20px;
-    border: 2px solid #6a0dad;
-    box-shadow: 0px 2px 4px white;
-}
-
-.card img {
-    width: 100%;       
-    max-width: 200px;   
-    height: auto;       
-    display: block;     
-    margin: 0 auto;     
-    border-radius: 10px;
-    margin-bottom: 0.5rem;
-    margin-top: 1rem;
-    border-bottom: 2px solid #6a0dad;
-}
-
-.card h4 {
-    text-align: center;
-    color:  #e2cffa;
-    border-bottom: 2px solid #6a0dad;
-
-}
-
-.card h6 {
-    margin-left: 5px;
-    margin-right: 5px;
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    word-break: break-word;
-    white-space: normal;
-    font-size: small;
-    color: #e2cffa;
-}
-
-.card h5 {
+h6 {
     color: red;
-    text-align: center;
     font-size: xx-small;
 }
 
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(90deg, #0ea5e9, #2563eb);
+}
+
+.nav-back {
+    padding: 10px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-right: 20px;
+    border-right: 2px solid #064ca9;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+.navbar .nav-link {
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #000;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* SECTION BACKGROUND */
+.content-bg {
+    background-color: #1e293b;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.image-bg {
+    background-color: #111827;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+/* PROFILE IMAGE */
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #0ea5e9;
+    box-shadow: 0 0 15px #0ea5e9;
+}
+
+/* CONTACT LINKS */
 .contact {
-    margin-top: 4rem;
-    background: #1f0033;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0px 2px 4px white;
-    text-align: center;
+        border: none;
+        border-radius: 10px;
+        background-color: #1e293b;
+}
+.contact a {
+    display: block;
+    text-decoration: none;
+    color: #38bdf8;
+    margin: 8px 0;
+    transition: 0.3s;
 }
 
-.contactlence {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+.contact a:hover {
+    color: white;
+    transform: translateX(5px);
 }
 
-.contactlence a {
-    background-color: rgba(183, 126, 255, 0.2);
-    padding: 0.6rem 1.2rem;
-    border-radius: 20px;
-    color: #d9c2ff;
-    border: 1px solid #7b41b3;
+/* SKILLS */
+.skills-section {
+    margin-top: 60px;
 }
 
-.footer {
-  margin-top: 4rem;
-  text-align: center;
-  color: #7e62a3;
+.card {
+    background-color: #1e293b;
+    border: 8px double #5bc4f9;
+    color: white;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(14,165,233,0.4);
+}
+
+/* PROJECTS */
+#projects {
+    margin-top: 60px;
+}
+
+#projects .card {
+    margin: 15px;
+}
+
+.btn-primary {
+    background-color: #0ea5e9;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0284c7;
+}
+
+.card-img-top {
+    margin-top: 5px;
+    border-radius: 10px;
+    border-bottom: 3px solid #0284c7;
+}
+
+#backToTop {
+    display: none; 
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+    background-color: #0ea5e9;
+    color: rgb(9, 9, 9);
+    border: none;
+    padding: 12px 16px;
+    border-radius: 100px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: background 0.3s, transform 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #7bcff9;
+    box-shadow: 0px 0px 5px rgb(250, 248, 248);
+    transform: scale(1.1);
+}
+
+/* Spin effect */
+
+/* 3D perspective on the parent */
+.project-container {
+  perspective: 1000px;
+}
+
+/* smooth rotation on the card */
+.card {
+
+  transition: transform 0.4s linear;
+  transform-origin: center;
+
+}
+
+.card.rotated {
+  transform: rotateY(360deg);
 }

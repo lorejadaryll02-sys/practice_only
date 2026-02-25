@@ -1,145 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head> 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>My Home</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-                 
-        <div class="container">
-                <div class="header">
-                    <div class="logo">HELLO PO!</div>
-                        <div class="nav">
-                            <a href="home.html">Back</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+                <!-- As a link -->
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <div>
+                       
+                        <a class="navbar-brand">
+                        <img src="Nitro_Wallpaper_01_3840x2400.jpg" alt="Logo" width="30" height="25" class="d-inline-block align-text-top"><strong> My Portfolio</strong>
+                        </a>
+                    </div>  
+
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about-me">ABOUT ME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#exper">EXPERRIENCE</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">SKILLS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                    <!-- Back to Top Button -->
+                    <button id="backToTop" title="Back to Top">🏠</button>
+                </div>
+            </nav>
+
+           
+            <div id="about-me" class="container-fluid text-center">
+                <div class="row align-items-start">
+                    <div class="col content-bg">
+                        <h1>About Me</h1>
+                        <hr>
+                            <p>
+                                I am 20 years old, from Tabunan, Matnog, Sorsogon. I am a passionate and 
+                                goal-driven BSIT student at Sorsogon State University who enjoys learning 
+                                new technologies and continuously improving my skills, especially in web
+                                development and networking.
+                            </p>
+
+                            <p>
+                                I am a hands-on learner who believes that the best way to grow is through 
+                                actual experience and real projects. I exploring how networks work, and
+                                understanding how technology connects and secures the digital world.
+                            </p>
+
+                            <p>
+                                My goal is to become a skilled IT professional, specializing in web development 
+                                and networking. However, my biggest dream in life is to become a cybersecurity 
+                                professional and help protect systems from digital threats. I aspire to build 
+                                secure and reliable systems that make a real impact.
+                            </p>
+
+                            <p>
+                                Aside from academics, I am a friendly and approachable person who easily 
+                                finds joy in simple things. I enjoy making people laugh and building good
+                                relationships with others. I also have a strong desire to gain more knowledge 
+                                not only in technology but also in other fields such as sports, especially 
+                                swimming, which I enjoy and continue to improve in.
+
+                                I am committed to continuous learning, personal growth, and becoming better every 
+                                day, both as a future IT professional and as an individual.
+                            </p>
+
+                    
+                    </div>
+                    <div class="col image-bg">
+                        <img src="1717048540259.jpg" class="profile-photo" alt="profile">
+                        <h1>DARYLL LOREJA</h1>
+                        <hr>
+                        
+                        <div id="contact" class="contact">
+                            <h2>Contact Information</h2>
+                                <div class="contactlence">
+                                    <a href="https://web.facebook.com/aryan.loreja/">🅵 Daryll Dadizon Loreja</a>
+                                    <a href="https://www.instagram.com/daryllloreja/">📸 daryllloreja</a>
+                                    <a href="mailto:lorejadaryll02@gmail.com">📧 lorejadaryll02@gmail.com</a>
+                                    <a href="0951-082-1613">📞 0951-082-1613 </a>
+                                </div>
+                        </div>
+                    </div>
+                     
+                    <div id="exper" class="container"> 
+                    <div id="exper" class="col content-bg">
+                        <h1>Experience</h1>
+                        <hr>
+                            <p>
+                                I have experience in web development, where I have created project using HTML, CSS, JavaScript, and Python for backend. 
+                                I have also worked on networking projects with my classmate, setting up and configuring networks for our final project. 
+                                Additionally, I have a strong interest in cybersecurity and have been learning about various security tools and techniques to protect systems from digital threats.
+                            </p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                            
+                    <div id="skills" class="container skills-section text-center">
+                        <div class="row">
+                        <h2 class="mb-4">Skills</h2>
+                        <hr>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Programming Language</h5>
+                                        <p class="card-text">HTML & CSS</p>
+                                        <p class="card-text">Simple JavaScript</p>
+                                        <p class="card-text">Simple Python</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Tools and Software</h5>
+                                        <p class="card-text">VS code</p>
+                                        <p class="card-text">Cisco Packet Tracer</p>
+                                        <p class="card-text">Photoshop</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Soft Skills</h5>
+                                        <p class="card-text">Team Work</p>
+                                        <p class="card-text">Problem Solving</p>
+                                        <p class="card-text">Good Communicator</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
-                <div class="prof">
-                    <img src="image/1717048540259.jpg" alt="profile" class="pic">
-                    <h1><strong>DARYLL D. LOREJA</strong></h1>
-                </div>
-    
-                <section class="about">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>
-                        I am 20 years old, from Tabunan, Matnog, Sorsogon. I am a passionate and 
-                        goal-driven BSIT student at Sorsogon State University who enjoys learning 
-                        new technologies and continuously improving my skills, especially in web
-                        development and networking.
-                    </p>
+                    <div id="projects" class="container text-center">
+                        <h2>Projects</h2>
+                        <hr>
+                        <div class="d-flex justify-content-center flex-wrap gap-4 project-container">
 
-                    <p>
-                        I am a hands-on learner who believes that the best way to grow is through 
-                        actual experience and real projects. I exploring how networks work, and
-                        understanding how technology connects and secures the digital world.
-                    </p>
+                            <!-- FIRST CARD -->
+                            <div class="card" style="width: 18rem;">
+                            <img src="Screenshot 2026-02-16 171227.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">FINAL PROJECT IN NETWORKING</h5>
+                                <p class="card-text">A conceptual networking project focused on designing a structured network 
+                                topology with proper IP addressing using CIDR slash notation. 
+                                This project demonstrates our understanding of subnetting, network structure, 
+                                and logical device connections.</p>
+                                <a class="btn btn-primary rotate-btn">Use Cisco Packet Tracer</a>
+                            </div>
+                            </div>
 
-                    <p>
-                        My goal is to become a skilled IT professional, specializing in web development 
-                        and networking. However, my biggest dream in life is to become a cybersecurity 
-                        professional and help protect systems from digital threats. I aspire to build 
-                        secure and reliable systems that make a real impact.
-                    </p>
+                            <!-- SECOND CARD -->
+                            <div class="card" style="width: 18rem;">
+                            <img src="1770300196937.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">REAL WORLD PROJECT</h5>
+                                <p class="card-text">A real-world web application built to simulate an online product system. 
+                                It includes back-end, front-end, user interface, and functional features 
+                                that replicate an actual business website experience.</p>
+                                <a class="btn btn-primary rotate-btn">Use HTML, CSS, JavaScript, Python</a>
+                                <h6>It's not finished yet</h6>
+                            </div>
+                            </div>
 
-                    <p>
-                        Aside from academics, I am a friendly and approachable person who easily 
-                        finds joy in simple things. I enjoy making people laugh and building good
-                        relationships with others. I also have a strong desire to gain more knowledge 
-                        not only in technology but also in other fields such as sports, especially 
-                        swimming, which I enjoy and continue to improve in.
+                            <!-- THIRD CARD -->
+                            <div class="card" style="width: 18rem;">
+                            <img src="Screenshot 2026-02-16 171642.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SIMPLE CALCU PROJECT</h5>
+                                <p class="card-text">A functional calculator application with a clean UI and responsive design. 
+                                Built to practice logic, user interaction, and modern interface styling.</p>
+                                <a class="btn btn-primary rotate-btn">Use PHP, XAMP, VS code, and JavaScript</a>
+                            </div>
+                            </div>
 
-                        I am committed to continuous learning, personal growth, and becoming better every 
-                        day, both as a future IT professional and as an individual.
-                    </p>
-                </div>
-            </section>
+                        </div>
+                        </div>
 
-                <h2><strong>SKILLS</strong></h2>
-                <div class="skills">
-                    <div class="box">
-                        <h3>Programming Language Skills</h3>
-                        <p>HTML & CSS</p>
-                        <p>Simple Python</p>
-                        <p>Simple Java</p>
-                    </div>
 
-                    <div class="box">
-                        <h3>Tools and Software</h3>
-                        <p>VS code</p>
-                        <p>Cisco Packet Tracer</p>
-                        <p>Photoshop</p>
-                    </div>
-
-                    <div class="box">
-                        <h3>Soft Skills</h3>
-                        <p>Team Work</p>
-                        <p>Probling Solving</p>
-                        <p>Good communicator</p>
-                    </div>
-                </div>
-
-                <h2><strong>EXPERIENCE</strong></h2>
-                <div class="experience">
-
-                </div>
-
-                <h2>PROJECTS</h2>
-                <div class="project">
-
-                    <div class="card">
-                        <img src="image/Screenshot 2026-02-16 171227.png" alt="pic" class="item">
-                        <h4>FINAL PROJECT IN NETWORKING</h4>
-                        <h6> 
-                            A conceptual networking project focused on designing a structured network 
-                            topology with proper IP addressing using CIDR slash notation. 
-                            This project demonstrates our understanding of subnetting, network structure, 
-                            and logical device connections.
-                        </h6> 
-                        <h6>Use Cisco Packet Tracer</h6>
-                    </div>
-
-                    <div class="card">
-                        <img src="image/1770300196937.jpg" alt="pic" class="item">
-                        <h4>REAL WORLD PROJECT</h4>
-                        <h6>
-                            A real-world web application built to simulate an online product system. 
-                            It includes back-end, front-end, user interface, and functional features 
-                            that replicate an actual business website experience.
-                        </h6> 
-
-                        <h6>Use HTML, CSS, JavaScript, Python</h6>
-                        <h5>It's not finished yet</h5>
 
                     </div>
-
-                    <div class="card">
-                        <img src="image/Screenshot 2026-02-16 171642.png" alt="pic" class="item">
-                        <h4>SIMPLE CALCU PROJECT</h4>
-                        <h6>
-                            A functional calculator application with a clean UI and responsive design. 
-                            Built to practice logic, user interaction, and modern interface styling.
-                        </h6> 
-
-                        <h6>Use PHP, XAMP, VS code, and JavaScript</h6>
-                    </div>
-                </div>
-
-                <div class="contact">
-                    <h2>CONTACT</h2>
-                    <div class="contactlence">
-                        <a href="https://web.facebook.com/aryan.loreja/">🅵 Daryll Dadizon Loreja</a>
-                        <a href="https://www.instagram.com/daryllloreja/">📸 daryllloreja</a>
-                        <a href="mailto:lorejadaryll02@gmail.com">📧 lorejadaryll02@gmail.com</a>
-                        <a href="0951-082-1613">📞 0951-082-1613 </a>
-                    </div>
-                </div>
-
-                <div class="footer">
-                    Thank youw pow
                 </div>
             </div>
-    </body>
+
+
+<script>
+// Get the button
+const backToTop = document.getElementById("backToTop");
+
+// Show button after scrolling down 300px
+window.onscroll = function() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        backToTop.style.display = "block";
+    } else {
+        backToTop.style.display = "none";
+    }
+};
+
+// Scroll smoothly to top on click
+backToTop.addEventListener("click", function(){
+    window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
+// Track current rotation per card
+const rotations = new Map();
+
+document.querySelectorAll('.rotate-btn').forEach(button => {
+  button.addEventListener('click', function() {
+    const card = button.closest('.card');
+    let current = rotations.get(card) || 0;
+    current += 360; // add one full spin
+    rotations.set(card, current);
+    card.style.transform = `rotateY(${current}deg)`;
+  });
+});
+</script>
+
+</body>
 </html>
